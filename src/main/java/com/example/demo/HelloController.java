@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Hello from other side of word momo";
+		return "test docker ";
 	}
 
 }
