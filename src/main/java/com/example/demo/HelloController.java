@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "test docker ";
+		return "on part vers une autre version docker";
 	}
 
 }
