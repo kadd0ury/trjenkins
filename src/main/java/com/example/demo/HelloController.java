@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-	@GetMapping("/")
+	@GetMapping("/hello")
 	public String index() {
 		return "on part vers une autre version docker";
 	}
